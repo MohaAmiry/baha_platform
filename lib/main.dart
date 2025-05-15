@@ -16,7 +16,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'Features/SplashFeature/Provider/SharedPrefProvider.dart';
 import 'Localization/LocalizationProvider.dart';
 import 'Router/MyRoutes.dart';
-import 'firebase_options.dart';
 import 'mappableInitializer.init.dart';
 //import 'firebase_options.dart';
 
@@ -53,8 +52,8 @@ void main() async {
   initializeMappers();
 
   await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+      //options: DefaultFirebaseOptions.currentPlatform,
+      );
 
   const bool USE_EMULATOR = false;
 
