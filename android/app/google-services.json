@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "274062945578",
+    "project_id": "baha-platform",
+    "storage_bucket": "baha-platform.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274062945578:android:0903a4cdfae19432280253",
+        "android_client_info": {
+          "package_name": "com.example.baha_platform"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsgiaW6iys07Z4MbpjDCgJm7zJdJ08VKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
